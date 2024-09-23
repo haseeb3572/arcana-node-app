@@ -1,16 +1,14 @@
 {
   "name": "arcana-node-app",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Arcana info Project",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.21.0"
-  },
-  "description": ""
+    "express": "^4.17.1"
+  }
 }
+
