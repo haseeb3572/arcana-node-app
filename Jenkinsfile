@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the GitHub repository
-                git 'https://github.com/haseeb3572/arcana-node-app.git'
+                git 'https://github.com/your-username/arcana-node-app.git'
             }
         }
 
@@ -51,3 +51,4 @@ pipeline {
         }
     }
 }
+
