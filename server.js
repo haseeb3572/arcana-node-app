@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Arcana info Project!');
+    res.send('Arcana info first cicd Project!');
 });
 
 app.listen(PORT, () => {
